@@ -16,9 +16,10 @@ chat-radio-marine-delta = Дельта
 chat-radio-marine-echo = Ехо
 chat-radio-marine-foxtrot = Фокстрот
 
+chat-radio-forecon = FORECON
+
 chat-radio-colony = Колонія
 chat-radio-WY = Ве-Я
-# CMB–БРШ
 chat-radio-CMB = Бюро Колоніальних Шерифів
 chat-radio-provost = Provost
 
@@ -29,5 +30,6 @@ chat-radio-spp-med = SPP Med
 chat-radio-spp-cct = SPP CCT
 
 chat-radio-royal-marine = Royal Marine
+chat-radio-tse = Three Suns Empire
 
 chat-radio-hivemind = Вулик

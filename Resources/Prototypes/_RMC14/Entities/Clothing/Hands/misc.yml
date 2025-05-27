@@ -13,7 +13,7 @@
     fiberColor: fibers-brown
 
 - type: entity
-  parent: CMHandsBlackMarine
+  parent: ClothingHandsBase
   id: CMHandsLatex
   name: латексні рукавички
   description: Пара рукавичок, перед тим як вдягнути перевірте чи немає у вас алергії на латекс.

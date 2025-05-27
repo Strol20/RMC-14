@@ -17,6 +17,7 @@ stamp-component-stamped-name-cm-cmo = Головний Лікар
 stamp-component-stamped-name-cm-qm = Квартирмейстр
 stamp-component-stamped-name-cm-ce = Головний Інженер
 stamp-component-stamped-name-cm-cl = Corporate Liaison
+stamp-component-stamped-name-cm-mw = Military Warden
 
 stamp-component-stamped-name-cm-approve = ЗАТВЕРДЖЕНО
 stamp-component-stamped-name-cm-deny = ВІДХИЛЕНО

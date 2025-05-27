@@ -5,7 +5,29 @@
   id: CMRollerBed
 
 - type: entity
-  parent: RollerBed
+  id: RMCRollerBedDestruction
+  abstract: true
+  components:
+  - type: Damageable
+    damageContainer: StructuralMarine
+    damageModifierSet: StructuralMarine
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 100
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: ReceiverXenoClaws
+    minimumClawStrength: Normal
+    hitsToDestroy: 1
+  - type: Construction
+    graph: RMCRollerBed
+    node: Metal
+
+- type: entity
+  parent: [ RMCRollerBedDestruction, RollerBed ]
   id: CMRollerBed
   name: Складне ліжко на роликах
   description: Складне ліжко на роликах, яке можна переносити.
@@ -80,6 +102,8 @@
       map: [ "buckledLayer" ]
       visible: false
   - type: Appearance
+  - type: ReceiverXenoClaws
+    minimumClawStrength: ImpossiblySharp
 
 - type: entity
   parent: CMPortableSurgicalBed
@@ -93,7 +117,7 @@
 
 # Copied most of RollerBed prototype except for pullable
 - type: entity
-  parent: [ BaseDeployFoldable ]
+  parent: [ RMCRollerBedDestruction, BaseDeployFoldable ]
   id: RMCMedevacStretcher
   name: ноші для евакуації
   description: Складні ноші, які можна активувати, щоб відправити пацієнта до повітряного транспортника.
@@ -168,6 +192,8 @@
   - type: Tag
     tags:
     - CMRollerItem
+  - type: ReceiverXenoClaws 
+    minimumClawStrength: ImpossiblySharp
 
 - type: entity
   parent: RMCMedevacStretcher

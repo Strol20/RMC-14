@@ -96,7 +96,7 @@
           False: { state: icon }
 
 - type: entity
-  parent: ClothingEyesHudMedical
+  parent: ClothingEyesBase
   id: RMCGlassesExperimentalMeson
   name: експериментальні мезонні окуляри # TODO RMC14 meson tile vision see description below
   description: Покращена, але експериментальна версія стандартних мезонних окулярів. Через складну конструкцію їх можуть носити лише синтетики. Забезпечують повне нічне бачення. # TODO RMC14 and viewing of the surroundings. Click it to toggle.

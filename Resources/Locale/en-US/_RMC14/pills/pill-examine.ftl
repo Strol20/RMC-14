@@ -9,3 +9,4 @@ cm-pill-contents-dylovene = Детоксикуюча пігулка. Нейтр�
 cm-pill-contents-inaprovaline = Пігулка Іноправаліну. Стабілізує пацієнта.
 cm-pill-contents-kelotane = Пігулка Келотану. Заліковує опіки.
 cm-pill-contents-tricordrazine = Пігулка Трикордразину. Слабко лікує всі види покоджень.
+rmc-pill-contents-meralyne-bicaridine = A Meralyne-Bicaridine pill. Rapidly heals brute damage.

@@ -14,7 +14,7 @@
     fiberColor: fibers-brown
 
 - type: entity
-  parent: CMHandsBlackMarine
+  parent: ClothingHandsBase
   id: CMHandsBrown
   name: коричневі рукавички
   description: Пара коричневих рукавичок.
@@ -27,7 +27,7 @@
     fiberColor: fibers-brown
 
 - type: entity
-  parent: CMHandsBlackMarine
+  parent: ClothingHandsBase
   id: CMHandsLightBrown
   name: світло-коричневі рукавички
   description: Пара світло-коричневих рукавичок.
@@ -40,7 +40,7 @@
     fiberColor: fibers-brown
 
 - type: entity
-  parent: CMHandsBlackMarine
+  parent: ClothingHandsBase
   id: CMHandsWhite
   name: білі рукавички
   description: Можливо зараз вони і білі, але вже після першого бойового вони стануть колейдоском з чорного, червоного, зеленого... і, певно коричневого.
@@ -62,3 +62,14 @@
     sprite: _RMC14/Objects/Clothing/Hands/Gloves/white.rsi
   - type: Clothing
     sprite: _RMC14/Objects/Clothing/Hands/Gloves/white.rsi
+
+- type: entity
+  parent: CMHandsWhite
+  id: RMCHandsPurple
+  name: purple gloves
+  description: A pair of gloves, they don't look special in any way.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Hands/Gloves/purple.rsi
+  - type: Clothing
+    sprite: _RMC14/Objects/Clothing/Hands/Gloves/purple.rsi

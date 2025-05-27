@@ -63,9 +63,7 @@
           tags:
           - RMCAttachmentFlashlightGrip
           - RMCAttachmentGyroscopicStabilizer
-          - RMCAttachmentFlamer
         random:
-        - RMCAttachmentMiniFlamethrower
         - RMCAttachmentFlashlightGrip
       rmc-aslot-stock:
         locked: true

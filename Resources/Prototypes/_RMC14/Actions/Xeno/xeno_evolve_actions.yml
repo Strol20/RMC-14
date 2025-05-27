@@ -26,9 +26,9 @@
 
 - type: entity
   parent: CMGuidebookActionXenoBase
-  id: CMGuidebookActionXenoEvolve
+  id: RMCGuidebookActionXenoEvolve
   name: Еволюціонувати
-  description: Еволюціонувати до наступної касти ксеноїдів.
+  description: Evolve to the next caste of xenonid or choose a strain if one is available.
   categories: [ HideSpawnMenu ]
   components:
     - type: Sprite

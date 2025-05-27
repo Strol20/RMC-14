@@ -21,6 +21,8 @@
 
   Кожен може вільно додавати гайди на цю сторінку через Discord або GitHub.
 
+  Many of these guides are also accessible by examining the role or item they're related to!
+
   ### Морпіхи
 
   [bold]Ролі[/bold]
@@ -37,8 +39,10 @@
   ### Ксеноморфи
 
   [bold]Ролі[/bold]
+  - [textlink="Castes" link="RMCGuideXenonidRoles"]
 
-
-  [bold]Об'єкти[/bold]
+  [bold]Структури[/bold]
+  - [textlink="Hive Structures" link="RMCGuideHiveStructures"]
+  - [textlink="Resin Holes" link="RMCGuideResinHoles"]
 
 </Document>

@@ -1,8 +1,8 @@
 - type: entity
   parent: [ RMCBaseWeaponShotgun, RMCBaseAttachableHolder ]
-  name: XM38 tactical shotgun
+  name: XM38 тактичний дробовик
   id: RMCWeaponShotgunXM38
-  description: Several years ago, We-Ya began testing the MK221. The UNMC picked up an early prototype, and later adopted it with a limited military contract. But the UNMC Special Operations Forces wasn't satisfied, and iterated on the early prototypes they had access to; eventually, their internal armorers and tinkerers produced the MK210, designated XM38, a lightweight folding shotgun that snaps to the belt. And to boot, it's fully automatic, made of stamped medal, and keeps the UGL. Truly an engineering marvel.
+  description: "Кілька років тому компанія Ве-Я розпочала випробування MK221. КМПОН отримав один із ранніх прототипів і згодом уклав обмежений військовий контракт. Однак сили спеціальних операцій КМПОН залишились незадоволені й взялися вдосконалювати доступні зразки. Зрештою, їхні зброярі й майстри-техніки створили MK210 - також відомий як XM38: легкий, складаний дробовик, що кріпиться на пояс. До того ж він повністю автоматичний, виготовлений із штампованого металу й зберіг підствольний гранатомет. Справжнє інженерне диво."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Shotguns/xm38.rsi

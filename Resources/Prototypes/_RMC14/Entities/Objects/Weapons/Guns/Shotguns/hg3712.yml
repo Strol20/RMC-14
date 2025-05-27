@@ -1,8 +1,8 @@
-﻿- type: entity
+- type: entity
   parent: [ RMCBaseWeaponShotgun, RMCBaseAttachableHolder ]
-  name: HG 37-12 pump shotgun
+  name: HG 37-12 помповий дробовик
   id: RMCWeaponShotgunHG3712
-  description: A eight-round pump action shotgun with four-round capacity dual internal tube magazines allowing for quick reloading and highly accurate fire. Used exclusively by Colony Marshals. You can switch the active internal magazine by toggling the shotgun tube.
+  description: Помповий дробовик на вісім набоїв із двома внутрішніми трубчастими магазинами по чотири набої кожен. Забезпечує швидке перезаряджання та високу точність. Використовується виключно маршалами колоній. Активний магазин можна перемикати за допомогою перемикача на дробовику.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Shotguns/hg3712.rsi

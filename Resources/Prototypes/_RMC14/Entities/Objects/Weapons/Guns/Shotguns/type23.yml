@@ -1,8 +1,8 @@
-﻿- type: entity
+- type: entity
   parent: [ RMCBaseWeaponShotgun, RMCBaseAttachableHolder ]
-  name: Type 23 riot shotgun
+  name: Type 23 протибунтівний дробовик
   id: RMCWeaponShotgunType23
-  description: As SPP soldiers frequently reported being outmatched by enemy combatants, SPP High Command commissioned a large amount of Type 23 shotguns, originally used for quelling defector colony riots. This slow semi-automatic shotgun chambers 8 gauge, and packs a mean punch.
+  description: Оскільки бійці СПН часто повідомляли про перевагу ворожих сил, верховне командування замовило масове виробництво дробовиків Type 23 - спершу створених для придушення бунтів у колоніях. Цей повільний напівавтоматичний дробовик використовує набої 8 калібру і завдає значної шкоди.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Shotguns/type23.rsi

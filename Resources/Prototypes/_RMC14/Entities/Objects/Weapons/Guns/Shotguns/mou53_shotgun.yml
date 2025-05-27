@@ -1,8 +1,8 @@
-﻿- type: entity
+- type: entity
   parent: [ RMCBaseBreechloader, RMCBaseAttachableHolder ]
-  name: MOU53 break action shotgun
+  name: MOU53 трьохствольний дробовик із переломом ствола
   id: WeaponShotgunMOU53
-  description: A limited production Kerchner MOU53 triple break action classic. Respectable damage output at medium ranges, while the Aegis M42 is the king of CQC, the Kerchner MOU53 is what hits the broadside of that barn. This specific model cannot safely fire buckshot shells.
+  description: Класика обмеженого виробництва від Kerchner. Має пристойну шкоду на середній дистанції. Якщо M42 від Aegis - король ближнього бою, то MOU53 - це те, чим принаймні влучиш у стіну сараю. Ця модель не призначена для безпечного використання з набоями картеччю.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Shotguns/mou53/jungle.rsi

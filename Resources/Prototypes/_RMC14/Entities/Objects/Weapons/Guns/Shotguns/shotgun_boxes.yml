@@ -1,8 +1,8 @@
-﻿- type: entity
+- type: entity
   abstract: true
   parent: BaseStorageItem
   id: RMCBoxShotgunBase
-  name: box of shotgun shells
+  name: коробка з дробовими набоями
   components:
   - type: Item
     size: Large
@@ -43,8 +43,8 @@
 - type: entity
   parent: RMCBoxShotgunBase
   id: RMCBoxShotgunBuckshot
-  name: box of buckshot shells
-  description: A box filled with buckshot spread shotgun shells. 12 Gauge.
+  name: коробка з картечними набоями (12 калібр)
+  description: Містить 12-каліберні картечні набої.
   components:
   - type: Storage
     whitelist:
@@ -72,8 +72,8 @@
 - type: entity
   parent: RMCBoxShotgunBase
   id: RMCBoxShotgunSlugs
-  name: box of slug shells
-  description: A box filled with heavy shotgun shells. A timeless classic. 12 Gauge.
+  name: коробка з кулевими набоями
+  description: Містить важкі 12-каліберні набої з кулею. Безвідмовна класика для точного пострілу.
   components:
   - type: Storage
     whitelist:
@@ -101,8 +101,8 @@
 - type: entity
   parent: RMCBoxShotgunBase
   id: RMCBoxShotgunIncendiary
-  name: box of incendiary slug shells
-  description: A box filled with self-detonating incendiary shotgun rounds. 12 Gauge.
+  name: коробка з запальними кулевими набоями
+  description: Містить важкі 12-каліберні кулеві набої з запалювальною начинкою.
   components:
   - type: Storage
     whitelist:
@@ -132,8 +132,8 @@
 - type: entity
   parent: RMCBoxShotgunBase
   id: RMCBoxShotgunBeanbag
-  name: box of beanbag shells
-  description: A box filled with beanbag shotgun shells used for non-lethal crowd control. 12 Gauge.
+  name: коробка з травматичними набоями
+  description: Містить 12-каліберні не летальні травматичні набої для контролю натовпу.
   components:
   - type: Storage
     whitelist:
@@ -161,8 +161,8 @@
 - type: entity
   parent: RMCBoxShotgunBase
   id: RMCBoxShotgunFlechette
-  name: box of flechette shells
-  description: A box filled with flechette shotgun shells. 12 Gauge.
+  name: коробка з флешетними набоями
+  description: Містить 12-каліберні набої, начинені дрібними металевими голками - флешетами.
   components:
   - type: Storage
     whitelist:
@@ -190,8 +190,8 @@
 - type: entity
   parent: RMCBoxShotgunBase
   id: RMCBoxShotgunIncendiaryBuckshot
-  name: box of incendiary buckshot shells
-  description: A box filled with self-detonating buckshot incendiary shotgun rounds. 12 Gauge.
+  name: коробка з запальними картечними набоями
+  description: Містить 12-каліберні картечні набої з запалювальною начинкою.
   components:
   - type: Storage
     whitelist:
@@ -221,8 +221,8 @@
 - type: entity
   parent: RMCBoxShotgunBase
   id: RMCBoxShotgunBreaching
-  name: box of breaching shells
-  description: A box filled with breaching shotgun shells. 16 Gauge.
+  name: коробка з штурмовими набоями
+  description: Містить 16-каліберні набої, призначені для вибивання дверей та руйнування перешкод.
   components:
   - type: Storage
     whitelist:
@@ -257,8 +257,8 @@
 - type: entity
   parent: RMCBoxShotgunBase
   id: RMCBoxShotgunBuckshot8g
-  name: box of buckshot shells
-  description: A box filled with buckshot spread shotgun shells. 8 Gauge.
+  name: коробка з картечними набоями (8 калібр)
+  description: Містить 8-каліберні дробові набої з картеччю.
   components:
   - type: Storage
     whitelist:

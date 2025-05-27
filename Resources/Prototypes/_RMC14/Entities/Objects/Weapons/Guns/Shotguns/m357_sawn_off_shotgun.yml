@@ -1,8 +1,8 @@
-﻿- type: entity
+- type: entity
   parent: [ WeaponShotgunM357, RMCBaseAttachableHolder ]
-  name: Sawn-Off M357 Rival
+  name: укорочений M357 'Суперник'
   id: WeaponShotgunM357Sawn
-  description: A double barrel shotgun produced by Aegis. Archaic, sturdy, affordable. It has been artificially shortened to reduce range but increase damage and spread.
+  description: Двоствольний дробовик виробництва Aegis. Старий, міцний, дешевий. Спеціально вкорочений, щоб зменшити дальність, але збільшити шкоду та розліт дробу.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Shotguns/dbsawnoff.rsi

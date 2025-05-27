@@ -43,8 +43,8 @@
 - type: entity
   parent: RMCBoxShotgunBase
   id: RMCBoxShotgunBuckshot
-  name: коробка з картечними набоями
-  description: Містить 12-каліберні дробові набої з картеччю.
+  name: коробка з картечними набоями (12 калібр)
+  description: Містить 12-каліберні картечні набої.
   components:
   - type: Storage
     whitelist:
@@ -133,7 +133,7 @@
   parent: RMCBoxShotgunBase
   id: RMCBoxShotgunBeanbag
   name: коробка з травматичними набоями
-  description: Містить 12-каліберні не летальні набої типу Beanbag для контролю натовпу.
+  description: Містить 12-каліберні не летальні травматичні набої для контролю натовпу.
   components:
   - type: Storage
     whitelist:
@@ -257,7 +257,7 @@
 - type: entity
   parent: RMCBoxShotgunBase
   id: RMCBoxShotgunBuckshot8g
-  name: коробка з картечними набоями
+  name: коробка з картечними набоями (8 калібр)
   description: Містить 8-каліберні дробові набої з картеччю.
   components:
   - type: Storage

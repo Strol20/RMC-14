@@ -15,13 +15,14 @@ cm-job-prefix-commanding-officer = КО
 CMJobCommandingOfficer = Командуючий Офіцер
 
 cm-job-name-executive-officer = Виконавчий Офіцер
-cm-job-description-executive-officer = Ви другий за званням на цьому кораблі, виконуйте накази Командуючого Офіцера.
+cm-job-description-executive-officer = You are second in command aboard the ship, and are the next in the Commander Succession after the Commanding Officer.
 cm-job-prefix-executive-officer = ВО
 CMJobExecutiveOfficer = Виконавчий Офіцер
 
-# Special forces
-rmc-job-prefix-forecon = FORECON
-rmc-job-prefix-forecon-co = FORECON CO
+# Special operation capable
+rmc-job-prefix-forecon-marksman = MKSMN
+rmc-job-prefix-forecon-support-tech = SPT
+rmc-job-prefix-forecon-co = Cmdr.
 
 # Admin only right now.
 cm-job-name-high-command = Вище Командування

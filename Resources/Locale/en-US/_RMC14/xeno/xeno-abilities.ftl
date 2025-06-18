@@ -370,3 +370,6 @@ rmc-xeno-eviscerate-windup = {$xeno} готується до потужного 
 
 rmc-xeno-eviscerate-windup-small-self = Ми готуємось до удару!
 rmc-xeno-eviscerate-windup-small = {$xeno} готується до удару!
+
+# Fling
+rmc-xeno-fling-too-big = {CAPITALIZE(THE($target))} is too big for us to fling!

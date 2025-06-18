@@ -91,11 +91,15 @@
   parent: CMPamphlet
   id: CMPamphletPowerloader
   name: довідник по навантажувачу
-  description: На обкладинці намальований навантажувач. В назві написано 'Рухатися легко, а ще легше стояти - практичний посібник по використанню навантажувача Хетезі Н-5000'.
+  description: A pamphlet used to quickly impart vital knowledge. This one has a powerloader insignia. The title reads 'Moving freight and squishing heads - a practical guide to a Work Loader'.
   suffix: НЕ РЕАЛІЗОВАНО
   components:
-  - type: Sprite
-    state: pamphlet_powerloader
+    - type: Sprite
+      state: pamphlet_powerloader
+    - type: SkillPamphlet
+      addSkills:
+        RMCSkillPowerLoader: 1
+      bypassLimit: true
 
 # gives police skill / bypasses limit
 - type: entity

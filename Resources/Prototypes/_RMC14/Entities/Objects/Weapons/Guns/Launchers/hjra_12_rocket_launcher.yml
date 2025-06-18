@@ -1,8 +1,8 @@
 - type: entity
-  name: HJRA-12 Handheld Anti-Tank Grenade Launcher
+  name: РПГ-HJRA-12
   parent: [BaseWeaponLauncher, CMBaseWeaponGun, RMCBaseAttachableHolder]
   id: RMCWeaponLauncherHJRA12
-  description: "The HJRA-12 Handheld Anti-Tank Grenade Launcher is the standard Anti-Armor weapon of the SPP. It is designed to be easy to use and to take out or disable armored vehicles."
+  description: "Ручний протитанковий гранатомет HJRA-12 - це стандартна зброя СПН. Гранатомет спроєктований для простоти у виробництві, використанні та ефективного виведення з ладу броньованих цілей."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/RocketLaunchers/hjra12.rsi
@@ -74,9 +74,9 @@
 
 - type: entity
   id: RMCRocketHJRA12
-  name: HJRA-12 Anti-Tank Rocket
+  name: HJRA-12 протитанкова ракета
   parent: BaseItem
-  description: A rocket for the SPP standard-issue HJRA-12 Handheld Anti-Tank Grenade Launcher. This one is a standard Anti-Tank rocket designed to disable or destroy hostile vehicles.
+  description: Ракета до стандартного ручного протитанкового гранатомета СПН HJRA-12. Призначена для ураження, знищення або виведення з ладу ворожої бронетехніки.
   components:
   - type: Tag
     tags:
@@ -101,8 +101,8 @@
   parent: RMCProjectileRocket84mm # I'm not doing explosion UI bro that shit caused my wife to leave me
   categories: [ HideSpawnMenu ]
   id: RMCProjectileRocketHJRA12
-  name: 84mm high-explosive rocket
-  description: A rocket tube compatible with the M5-ATL loaded with an AP warhead. Capable of piercing and downing heavily armored targets. Deals very little to no splash damage. Inflicts guaranteed stun to most targets. Has high accuracy within 7 meters.
+  name: 84-мм бронебійна ракета
+  description: Ракета, сумісна з ПТГ-М5, оснащена бронебійним (ББ) зарядом. Здатна пробивати та вражати важкоброньовані цілі. Майже не має осколкової дії. Гарантовано оглушає більшість цілей. Висока точність на дистанції до 7 метрів.
   components:
   - type: CartridgeAmmo
     proto: RMCProjectileRocket84mmAntiArmor

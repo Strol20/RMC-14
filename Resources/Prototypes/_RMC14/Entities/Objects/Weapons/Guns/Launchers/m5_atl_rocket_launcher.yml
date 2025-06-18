@@ -1,8 +1,8 @@
 - type: entity
-  name: M5-ATL
+  name: ПТГ-M5
   parent: [BaseWeaponLauncher, CMBaseWeaponGun, RMCBaseAttachableHolder]
   id: RMCWeaponLauncherM5ATL
-  description: "The M5 Anti-Tank Launcher is a powerful anti-armor infantry weapon, commonly fielded by the UNMC. Used to take out light-tanks and enemy structures, the M5-ATL is a dangerous weapon with a variety of combat uses, depending on the loaded ammunition, and is capable of firing both shells and rocket-propelled grenades.\n\nThis one is missing its smart optics completely, and seems to be damaged, greatly limiting its range..."
+  description: "Протитанковий гранатомет M5 - потужна зброя піхоти, що зазвичай перебуває на озброєнні КМПОН. Використовується для знищення легких танків та ворожих укріплень. ПТГ-М5 - небезпечна зброя з широким спектром бойового застосування, залежно від типу заряджених боєприпасів. Стріляє ракетами.\n\nУ цьому екземплярі відсутня розумна оптика, а також виявлено ймовірні пошкодження, що суттєво зменшують ефективну дальність вогню."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/RocketLaunchers/m5spec.rsi
@@ -77,9 +77,9 @@
 # 84mm HE
 - type: entity
   id: RMCRocket84mm
-  name: 84mm high-explosive rocket
+  name: 84-мм осколково-фугасна ракета
   parent: BaseItem
-  description: A rocket tube compatible with the M5-ATL loaded with a HE warhead. Deals high damage to soft targets on direct hit and splashes other targets in a 5-meter-wide area. Has decreased effect on heavily armored targets.
+  description: "Ракета, сумісна з ПТГ-М5, оснащена осколково-фугасним (ОФ) зарядом. Завдає значної шкоди м'яким цілям при прямому влучанні та уражає інші цілі в радіусі 5 метрів. Менш ефективна проти важкоброньованих цілей."
   components:
   - type: Tag
     tags:
@@ -103,9 +103,9 @@
 
 - type: entity
   id: RMCProjectileRocket84mm
-  name: 84mm high-explosive rocket
+  name: 84-мм осколково-фугасна ракета
   categories: [ HideSpawnMenu ]
-  description: Uh oh.
+  description: Ох-х.
   components:
   - type: TriggerOnCollide
     # TODO RMC14 Make TriggerOnCollide spawn the explosion on the OtherEntity tile more consistently, so the explosion is centered properly
@@ -160,9 +160,9 @@
 
 - type: entity
   id: RMCRocket84mmAntiArmor
-  name: 84mm anti-armor rocket
+  name: 84-мм бронебійна ракета
   parent: RMCRocket84mm
-  description: A rocket tube compatible with the M5-ATL loaded with an AP warhead. Capable of piercing and downing heavily armored targets. Deals very little to no splash damage. Inflicts guaranteed stun to most targets. Has high accuracy within 7 meters.
+  description: Ракета, сумісна з ПТГ-М5, оснащена бронебійним (ББ) зарядом. Здатна пробивати та вражати важкоброньовані цілі. Майже не має осколкової дії. Гарантовано оглушає більшість цілей. Висока точність на дистанції до 7 метрів.
   components:
   - type: CartridgeAmmo
     proto: RMCProjectileRocket84mmAntiArmor
@@ -179,7 +179,7 @@
 
 - type: entity
   id: RMCProjectileRocket84mmAntiArmor
-  name: 84mm anti-armor rocket
+  name: 84-мм бронебійна ракета
   parent: RMCProjectileRocket84mm
   categories: [ HideSpawnMenu ]
   components:

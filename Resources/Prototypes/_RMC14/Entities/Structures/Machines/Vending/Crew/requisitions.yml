@@ -261,52 +261,52 @@
       hasBoxes: true
       entries:
       - id: CMPacketGrenadeFragOldFilled
-        name: M15 fragmentation grenade packet
+        name: упаковка гранат М15
         box: CMGrenadeFragOld
         boxAmount: 3
         boxSlots: 3
       - id: CMPacketGrenadeHighExplosiveFilled
-        name: M40 HEDP grenade packet
+        name: упаковка гранат М40 ФПП
         box: CMGrenadeHighExplosive
         boxAmount: 3
         boxSlots: 3
       - id: RMCPacketGrenadeIncendiaryFilled
-        name: M40 HIDP grenade packet
+        name: упаковка гранат М40 ВІРЗ
         box: RMCGrenadeIncendiary
         boxAmount: 3
         boxSlots: 3
       - id: RMCPacketGrenadeSmokeFilled
-        name: M40 HSDP grenade packet
+        name: упаковка гранат М40 ВДР
         box: CMGrenadeSmoke
         boxAmount: 3
         boxSlots: 3
       - id: RMCPacketGrenadeM74AGMFFilled
-        name: M74AGM-F grenade packet
+        name: упаковка гранат M74 ПВГ-О
         box: RMC40MMGrenadeM74AGMF
         boxAmount: 3
         boxSlots: 3
       - id: RMCPacketGrenadeM74AGMIFilled
-        name: M74AGM-I grenade packet
+        name: упаковка гранат М74 ПВГ-З
         box: RMC40MMGrenadeM74AGMI
         boxAmount: 3
         boxSlots: 3
       - id: RMCPacketGrenadeM74AGMSFilled
-        name: M74AGM-S grenade packet
+        name: упаковка гранат М74 ПВГ-Д
         box: RMC40MMGrenadeM74AGMS
         boxAmount: 3
         boxSlots: 3
       - id: RMCPacketGrenadeM74AGMSStarShellFilled
-        name: M74AGM-S Starshell grenade packet
+        name: упаковка гранат М74 ПВГ-З Зіркова
         box: RMCStarShellM74AGMS
         boxAmount: 3
         boxSlots: 3
       - id: RMCPacketGrenadeM74AGMSHornetFilled
-        name: M74AGM-S Hornet grenade packet
+        name: упаковка гранат М74 ПВГ-К Шершень
         box: RMCHornetShellM74AGMS
         boxAmount: 3
         boxSlots: 3
       - id: RMCPacketGrenadeBatonSlugHIRRFilled
-        name: HIRR Baton Slug packet
+        name: упаковка гранат ВІГС
         box: RMCBatonSlugHIRR
         boxAmount: 3
         boxSlots: 3

@@ -10,3 +10,4 @@ cm-pill-contents-inaprovaline = Пігулка Іноправаліну. Ста�
 cm-pill-contents-kelotane = Пігулка Келотану. Заліковує опіки.
 cm-pill-contents-tricordrazine = Пігулка Трикордразину. Слабко лікує всі види покоджень.
 rmc-pill-contents-meralyne-bicaridine = A Meralyne-Bicaridine pill. Rapidly heals brute damage.
+rmc-pill-contents-russianred = A Russian Red pill. A very dangerous radiation-countering substance.

@@ -1,5 +1,5 @@
 ﻿- type: entity
-  parent: BaseMagazineRifle
+  parent: CMMagazineRifleBase
   id: RMCMagazineSentry
   name: "М30 барабанний магазин (10x28мм Безгільзовий)"
   description: "500-ти набійний магазин безгільзових набоїв калібру 10x28мм для UN 571-C Sentry Gun. Просто вставте його в патронний відсік."
@@ -30,9 +30,9 @@
     zeroVisible: false
     zeroOnlyOnEmpty: true
   - type: Appearance
-  
+
 - type: entity
-  parent: BaseMagazineRifle
+  parent: CMMagazineRifleBase
   id: RMCMagazineSentryShotgun
   name: "12g buckshot drum"
   description: "An ammo drum of 50 12g buckshot shells for the UN 12-G Shotgun Sentry. Just feed it into the sentry gun's ammo port when its ammo is depleted."

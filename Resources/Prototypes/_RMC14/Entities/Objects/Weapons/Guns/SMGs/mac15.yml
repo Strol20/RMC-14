@@ -84,7 +84,7 @@
     multiplier: 0.9
 
 - type: entity
-  parent: BaseMagazineRifle
+  parent: CMMagazineRifleBase
   id: RMCMagazineSMGMAC15
   name: MAC-15 магазин (9 мм)
   description: Магазин з 9-мм набоями для MAC-15.

@@ -4,6 +4,9 @@
   name: TC-3T телекомунікаційна вежа
   description: Стаціонарний, надміцний ретранслятор ТС-3Т. Використовується для встановлення підпросторового зв'язку між планетарними та позапланетними локаціями. Потрібно додати нові частоти за допомогою мультитула.
   components:
+  - type: GuideHelp
+    guides:
+    - RMCGuideCommunicationsTowers
   - type: Transform
     anchored: true
   - type: Clickable

@@ -37,24 +37,6 @@
 
 - type: construction
   parent: RMC
-  name: зручне крісло
-  id: CMChairComfy
-  graph: CMSeat
-  startNode: start
-  targetNode: chairComfy
-  category: construction-category-cm-furniture
-  description: Зручне крісло для сидіння.
-  icon:
-    sprite: _RMC14/Structures/Furniture/chairs.rsi
-    state: comfychair
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canBuildInImpassable: false
-  conditions:
-    - !type:TileNotBlocked
-
-- type: construction
-  parent: RMC
   name: темне офісне крісло
   id: CMChairOfficeDark
   graph: CMSeat

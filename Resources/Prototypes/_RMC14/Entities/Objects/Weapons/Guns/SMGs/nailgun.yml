@@ -73,7 +73,7 @@
     - RMCWeaponSMGNailgun
 
 - type: entity
-  parent: BaseMagazineRifle
+  parent: CMMagazineRifleBase
   id: RMCMagazineSMGNailgun
   name: "магазин цвяхостріла (7x45 мм)"
   description: "Магазин великих пласталевих цвяхів. Через високу ціну їх рідко використовують у військових цілях - лише для специфічних будівельних задач."

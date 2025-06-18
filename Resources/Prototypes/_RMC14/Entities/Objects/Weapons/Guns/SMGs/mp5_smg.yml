@@ -96,7 +96,7 @@
     multiplier: 1.2
 
 - type: entity
-  parent: BaseMagazineRifle
+  parent: CMMagazineRifleBase
   id: CMMagazineSMGMP5
   name: "MP5 магазин (9 мм)"
   description: "Магазин з 9-мм набоями для MP5."

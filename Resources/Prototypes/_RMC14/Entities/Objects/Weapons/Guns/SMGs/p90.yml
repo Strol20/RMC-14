@@ -89,7 +89,7 @@
     multiplier: 1.2
 
 - type: entity
-  parent: BaseMagazineRifle
+  parent: CMMagazineRifleBase
   id: RMCMagazineSMGP90
   name: "FN P90 магазин (5.7х28 мм)"
   description: "Магазин калібру 5.7х28 мм для FN P90."

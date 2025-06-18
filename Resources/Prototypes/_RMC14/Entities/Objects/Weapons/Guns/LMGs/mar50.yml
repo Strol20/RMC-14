@@ -1,8 +1,8 @@
-﻿- type: entity
+- type: entity
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
-  name: MAR-50 light machine gun
+  name: MAR-50 ручний кулемет
   id: RMCWeaponMar50LMG
-  description: A cheap, reliable LMG chambered in 7.62x39mm. Commonly found in the hands of slightly better funded criminals.
+  description: Дешевий, але надійний ручний кулемет під набій 7.62х39 мм. Зазвичай трапляється в руках злочинців, які мають трохи більше грошей.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/LMGs/mar50.rsi
@@ -97,8 +97,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineMar50LMG
-  name: MAR drum magazine (7.62x39mm)
-  description: A 7.62x39mm drum magazine for the MAR-50 LMG.
+  name: MAR барабанний магазин (7.62x39 мм)
+  description: Барабанний магазин під набій 7.62х39 мм для ручного кулемета MAR-50.
   components:
   - type: Tag
     tags:
@@ -125,8 +125,8 @@
 - type: entity
   parent: CMBaseCartridgeRifle
   id: RMCCartridgeRifle762x39mm
-  name: cartridge (7.62x39mm)
-  description: A 7.62x39mm cartridge. Fits in 7.62x39mm magazines.
+  name: набій (7.62x39 мм)
+  description: Набій калібру 7.62х39 мм. Сумісний з магазинами під набій 7.62х39 мм.
   components:
   - type: Tag
     tags:

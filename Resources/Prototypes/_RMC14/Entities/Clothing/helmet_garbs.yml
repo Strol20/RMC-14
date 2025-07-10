@@ -171,8 +171,8 @@
 - type: entity
   parent: RMCHelmetGarbBase
   id: RMCHelmetGarbBuckshot
-  name: гільзи від картечі
-  description: Три використані гільзи доброго старої картечі. Кажуть, колись їх фарбували в зелений... Були ж часи.
+  name: гільзи від картечних набоїв
+  description: Три використані гільзи доброї старої картечі. Кажуть, колись їх фарбували в зелений... Були ж часи.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/buckshot.rsi
@@ -187,8 +187,8 @@
 - type: entity
   parent: RMCHelmetGarbBase
   id: RMCHelmetGarbFlechette
-  name: гільзи підствольного гранатомета
-  description: "Чим більше стріляєш, тим більше розумієш: осколкова граната ефективніша. До речі... А хіба ці штуки не мали б викидатися з твого ствола?"
+  name: гільзи від флешетних набоїв
+  description: Чим більше ти стріляєш такими, тим більше здається, що осколкова граната краще впоралася б із цим завданням. Гей, а ці штуки взагалі не мали би вилітати з твого дробовика?
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/HelmetGarb/flechette.rsi
@@ -203,7 +203,7 @@
 - type: entity
   parent: RMCHelmetGarbBase
   id: RMCHelmetGarbSlug
-  name: гільзи від суцільної кулі
+  name: гільзи від кулевих набоїв
   description: Для тих ситуацій, коли треба збити ціль із ніг завдяки потужній силі. Ці три гільзи вже виконали свою роботу.
   components:
   - type: Sprite

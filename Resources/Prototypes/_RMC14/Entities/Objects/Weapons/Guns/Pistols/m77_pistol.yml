@@ -127,6 +127,7 @@
   parent: CMBulletBase
   id: CMBulletPistolM77AP
   name: куля (9мм ББ)
+  categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
     damage:

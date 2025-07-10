@@ -16,7 +16,7 @@ chat-radio-marine-delta = Дельта
 chat-radio-marine-echo = Ехо
 chat-radio-marine-foxtrot = Фокстрот
 
-chat-radio-forecon = ФОРКОН
+chat-radio-marine-sof = SOF
 
 chat-radio-colony = Колонія
 chat-radio-WY = Ве-Я
@@ -28,6 +28,7 @@ chat-radio-spp = СПН
 chat-radio-spp-engi = Інж СПН
 chat-radio-spp-med = Мед СПН
 chat-radio-spp-cct = БТ СПН
+chat-radio-halcyon = Halcyon Dynamics
 
 chat-radio-royal-marine = Королівська Морпіхота
 chat-radio-tse = ІТС
